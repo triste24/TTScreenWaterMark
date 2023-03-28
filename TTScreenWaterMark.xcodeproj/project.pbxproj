@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B61BE5729D2A256004A47FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BE5629D2A256004A47FE /* AppDelegate.m */; };
+		2B61BE5A29D2A256004A47FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BE5929D2A256004A47FE /* ViewController.m */; };
+		2B61BE5C29D2A257004A47FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B61BE5B29D2A257004A47FE /* Assets.xcassets */; };
+		2B61BE5F29D2A257004A47FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B61BE5D29D2A257004A47FE /* Main.storyboard */; };
+		2B61BE6129D2A257004A47FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BE6029D2A257004A47FE /* main.m */; };
+		2B61BE6B29D2A29E004A47FE /* WatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B61BE6A29D2A29E004A47FE /* WatermarkView.m */; };
+		2B61BE6D29D2A325004A47FE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B61BE6C29D2A325004A47FE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B61BE5229D2A256004A47FE /* TTScreenWaterMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTScreenWaterMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B61BE5529D2A256004A47FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B61BE5629D2A256004A47FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B61BE5829D2A256004A47FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B61BE5929D2A256004A47FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B61BE5B29D2A257004A47FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B61BE5E29D2A257004A47FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B61BE6029D2A257004A47FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B61BE6229D2A257004A47FE /* TTScreenWaterMark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTScreenWaterMark.entitlements; sourceTree = "<group>"; };
+		2B61BE6929D2A29E004A47FE /* WatermarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatermarkView.h; sourceTree = "<group>"; };
+		2B61BE6A29D2A29E004A47FE /* WatermarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatermarkView.m; sourceTree = "<group>"; };
+		2B61BE6C29D2A325004A47FE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B61BE4F29D2A256004A47FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B61BE4929D2A256004A47FE = {
+			isa = PBXGroup;
+			children = (
+				2B61BE5429D2A256004A47FE /* TTScreenWaterMark */,
+				2B61BE5329D2A256004A47FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B61BE5329D2A256004A47FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BE5229D2A256004A47FE /* TTScreenWaterMark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B61BE5429D2A256004A47FE /* TTScreenWaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BE6829D2A28D004A47FE /* Watermark */,
+				2B61BE5529D2A256004A47FE /* AppDelegate.h */,
+				2B61BE5629D2A256004A47FE /* AppDelegate.m */,
+				2B61BE5829D2A256004A47FE /* ViewController.h */,
+				2B61BE5929D2A256004A47FE /* ViewController.m */,
+				2B61BE5B29D2A257004A47FE /* Assets.xcassets */,
+				2B61BE5D29D2A257004A47FE /* Main.storyboard */,
+				2B61BE6029D2A257004A47FE /* main.m */,
+				2B61BE6C29D2A325004A47FE /* Info.plist */,
+				2B61BE6229D2A257004A47FE /* TTScreenWaterMark.entitlements */,
+			);
+			path = TTScreenWaterMark;
+			sourceTree = "<group>";
+		};
+		2B61BE6829D2A28D004A47FE /* Watermark */ = {
+			isa = PBXGroup;
+			children = (
+				2B61BE6929D2A29E004A47FE /* WatermarkView.h */,
+				2B61BE6A29D2A29E004A47FE /* WatermarkView.m */,
+			);
+			path = Watermark;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B61BE5129D2A256004A47FE /* TTScreenWaterMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B61BE6529D2A257004A47FE /* Build configuration list for PBXNativeTarget "TTScreenWaterMark" */;
+			buildPhases = (
+				2B61BE4E29D2A256004A47FE /* Sources */,
+				2B61BE4F29D2A256004A47FE /* Frameworks */,
+				2B61BE5029D2A256004A47FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTScreenWaterMark;
+			productName = TTScreenWaterMark;
+			productReference = 2B61BE5229D2A256004A47FE /* TTScreenWaterMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B61BE4A29D2A256004A47FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2B61BE5129D2A256004A47FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2B61BE4D29D2A256004A47FE /* Build configuration list for PBXProject "TTScreenWaterMark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B61BE4929D2A256004A47FE;
+			productRefGroup = 2B61BE5329D2A256004A47FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B61BE5129D2A256004A47FE /* TTScreenWaterMark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B61BE5029D2A256004A47FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61BE5C29D2A257004A47FE /* Assets.xcassets in Resources */,
+				2B61BE5F29D2A257004A47FE /* Main.storyboard in Resources */,
+				2B61BE6D29D2A325004A47FE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B61BE4E29D2A256004A47FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B61BE5A29D2A256004A47FE /* ViewController.m in Sources */,
+				2B61BE6129D2A257004A47FE /* main.m in Sources */,
+				2B61BE5729D2A256004A47FE /* AppDelegate.m in Sources */,
+				2B61BE6B29D2A29E004A47FE /* WatermarkView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B61BE5D29D2A257004A47FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B61BE5E29D2A257004A47FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B61BE6329D2A257004A47FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B61BE6429D2A257004A47FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B61BE6629D2A257004A47FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TTScreenWaterMark/TTScreenWaterMark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TTScreenWaterMark/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triste.TTScreenWaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		2B61BE6729D2A257004A47FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TTScreenWaterMark/TTScreenWaterMark.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TTScreenWaterMark/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.triste.TTScreenWaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B61BE4D29D2A256004A47FE /* Build configuration list for PBXProject "TTScreenWaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61BE6329D2A257004A47FE /* Debug */,
+				2B61BE6429D2A257004A47FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B61BE6529D2A257004A47FE /* Build configuration list for PBXNativeTarget "TTScreenWaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B61BE6629D2A257004A47FE /* Debug */,
+				2B61BE6729D2A257004A47FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B61BE4A29D2A256004A47FE /* Project object */;
+}
